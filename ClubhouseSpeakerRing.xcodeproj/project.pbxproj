@@ -11,6 +11,7 @@
 		C9F594492631BE5A00ECFBE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F594482631BE5A00ECFBE0 /* ContentView.swift */; };
 		C9F5944B2631BE5C00ECFBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F5944A2631BE5C00ECFBE0 /* Assets.xcassets */; };
 		C9F5944E2631BE5C00ECFBE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F5944D2631BE5C00ECFBE0 /* Preview Assets.xcassets */; };
+		C9F594572631C42900ECFBE0 /* ProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F594562631C42900ECFBE0 /* ProfilePictureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C9F5944A2631BE5C00ECFBE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9F5944D2631BE5C00ECFBE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9F5944F2631BE5C00ECFBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F594562631C42900ECFBE0 /* ProfilePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				C9F594462631BE5A00ECFBE0 /* ClubhouseSpeakerRingApp.swift */,
 				C9F594482631BE5A00ECFBE0 /* ContentView.swift */,
+				C9F594562631C42900ECFBE0 /* ProfilePictureView.swift */,
 				C9F5944A2631BE5C00ECFBE0 /* Assets.xcassets */,
 				C9F5944F2631BE5C00ECFBE0 /* Info.plist */,
 				C9F5944C2631BE5C00ECFBE0 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F594492631BE5A00ECFBE0 /* ContentView.swift in Sources */,
+				C9F594572631C42900ECFBE0 /* ProfilePictureView.swift in Sources */,
 				C9F594472631BE5A00ECFBE0 /* ClubhouseSpeakerRingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

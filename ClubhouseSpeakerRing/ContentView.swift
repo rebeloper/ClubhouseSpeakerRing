@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isSpeaking = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            ProfilePictureView(isSpeaking: $isSpeaking)
+                .onTapGesture {
+                    isSpeaking.toggle()
+                }
+        }
     }
 }
 
